@@ -1,0 +1,28 @@
+<style>
+  i {
+      text-align: center;
+      bottom: 0;
+  }
+</style>
+
+<h1>Candy shop</h1>
+
+<ul>
+  <% @candies.each do |cake| %>
+    <li>
+      <pre>
+      <%= cake.name  %>     <%= cake.description  %>    <%= cake.price  %> €
+      </pre>
+    </li>
+  <% end %>
+</ul>
+
+
+
+
+
+  <i> All your sweets belong to us!</i>
+
+
+
+
